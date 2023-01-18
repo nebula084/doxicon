@@ -1,0 +1,149 @@
+:root {
+  --action: #F9F9F8;
+  --accent: #A4495E;
+  --text: #F9F9F8;
+  --main: #3c3c3c;
+  --lightmain: #141414;
+  --accent2: #856585;
+
+
+}
+#tabinfo {
+  border: var(--accent) solid 5px;
+  border-radius: 5px;
+float:right;
+  width:29%;
+  height:auto;
+  color: var(--accent2);
+  padding: 1vw;
+}
+
+#gameWindow {
+  position: relative;
+  border-radius: 5px;
+  border: 5px solid var(--accent2);
+  margin:1vw;
+  padding: 1vw;
+  background-color: var(--lightmain);
+  width: 70%;
+  height: 600px;
+}
+
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: var(--main);
+}
+
+body {
+  margin: 0%
+}
+
+
+a {
+  cursor: pointer;
+  color: var(--text)
+}
+
+#gameFrame {
+  border: var(--accent) solid 5px;
+  border-radius: 5px;
+  align-self:center;
+  float:left;
+}
+
+#changelog {
+  position: static;
+  float: right;
+}
+
+#banner {
+  background: var(--accent2);
+  text-align: center;
+  color: var(--lightmain);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#menu {
+  border-bottom: var(--accent2) solid 2px;
+  border-top: var(--accent2) solid 2px;
+
+  background-color: var(--lightmain);
+  padding: 1%;
+}
+
+.dropbtn {
+  position: static;
+  background-color: var(--lightmain);
+  color: var(--text);
+  padding: 10px;
+  font-size: 1.3vw;
+  width: 90%;
+  font-family: inherit;
+  border: 2px solid var(--accent);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.dropdown {
+  width: 16%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin: auto;
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  border: var(--accent) solid 2px;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  background-color: var(--lightmain);
+  min-width: 180px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: var(--text);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  border: solid 3px;
+  background: linear-gradient(to right, #8b09c7, #005eff, #00ffcc, #9cf709, #ffd500, #f33a3e, #8b09c7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow 6s infinite;
+  background-size: 200% 100%;
+  animation-delay: 0ms;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+  background-color: var(--main);
+  color: var(--text)
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: 300%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
+}
