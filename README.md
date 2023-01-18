@@ -1,7 +1,7 @@
 This software belongs to E-man Enterprises, owned by Vossi Corporations.
 
 You may not distribute this without written consent from the creator. 
-Contact xiaoasher@gmail.com for more information.
+Contact nebula084@gmail.com for more information.
 
 INSTRUCTIONS (for ChromeOS/Chromebooks):
 
